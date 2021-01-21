@@ -8,6 +8,7 @@ function App() {
         <img src={logo} className="App-logo" alt="logo" />
         <p>
          hellow beninass
+         anote!!
         </p>
         <a
           className="App-link"
