@@ -23,7 +23,7 @@ export default class pokemon extends Component {
     const toArray = [];
    
       const url = `https://pokeapi.co/api/v2/pokemon/${pokemon}`;
-      const url = `https://pokeapi.co/api/v2/pokemon/`;
+      const url2 = `https://pokeapi.co/api/v2/pokemon/`;
       const res = await axios.get(url);
       toArray.push(res.data);
       const name = res.data.name;
