@@ -19,10 +19,10 @@ export default class NavBar extends Component {
                     <div className="collapse navbar-collapse" id="navbarSupportedContent">
                         <ul className="navbar-nav mr-auto">
                             <li className="nav-item active">
-                                <a className="nav-link" href="#">Todos Pokémons</a>
+                                <a className="nav-link" href="todospokemons">Todos Pokémons</a>
                             </li>
                             <li className="nav-item active">
-                                <a className="nav-link" href="#">Minha Pokébola</a>
+                                <a className="nav-link" href="meuspokemons">Minha Pokébola</a>
                             </li>                    
                         </ul>                        
                     </div>              
