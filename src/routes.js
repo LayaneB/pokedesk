@@ -3,7 +3,7 @@ import {Switch, Route} from 'react-router-dom';
 
 import MeusPockets from './pages/MeusPockets';
 import Home from './pages/Home';
-import pokemon from './pages/pokemon';
+import Menu from './Menu';
 
 
 export class Routes extends Component {
@@ -12,8 +12,8 @@ export class Routes extends Component {
             <main className="container">
                 <Switch>
                     <Route exact path='/' component={Home} />
-                    <Route path='/meuspockets' component={MeusPockets} />
-                    <Route path='/pokemon/' component={pokemon} />
+                    <Route path='/meuspokemons' component={MeusPockets} />
+                    <Route path='/todospokemons' component={Home} />
                 </Switch>
             </main>
         )
