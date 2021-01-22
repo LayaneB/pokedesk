@@ -4,7 +4,7 @@ import React from 'react';
 function MeusPockets(){
     return(
         <>
-        <h1> Meus Pockets </h1>
+        <h1> Meus Pokemons </h1>
         <ul>
             <li>Pocket 01</li>
             <li>Pocket 02</li>

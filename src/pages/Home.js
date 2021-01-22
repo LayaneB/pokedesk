@@ -1,11 +1,14 @@
-import React, {Component} from 'react';
+import React, {Component, useState} from 'react';
+
+import Dashboard from '../components/layout/Dashboard';
 import axios from 'axios';
+
 export class Home extends Component {
     render() {
-        return (
-            <div>
-                <h1> Página Inicial </h1>
-            </div>
+                return (
+                    <div className="container">
+                        <Dashboard></Dashboard>
+                    </div>
         )
    }
 };
