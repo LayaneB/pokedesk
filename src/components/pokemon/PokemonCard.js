@@ -51,6 +51,9 @@ export default class PokemonCard extends Component {
                             .map(letter => letter.charAt(0).toUpperCase()+letter.substring(1))
                             .join('')}
                         </h6>
+                        <button type="button" class="btn btn-success" aria-pressed="false">
+                            Capturar
+                        </button>
                    </div>
                 </Card>
             </div>
