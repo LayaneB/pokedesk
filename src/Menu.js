@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 
 const links = [
     { route: "/", label: "Home"},
-    { route: "/meuspockets", label: "Meus Pockets"},
+    { route: "/meuspockets", label: "Meus Pokemons"},
 ];
 
 export class Menu extends Component {

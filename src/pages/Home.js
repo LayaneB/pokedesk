@@ -1,13 +1,11 @@
 import React, {Component, useState} from 'react';
-
-import Dashboard from '../components/layout/Dashboard';
-import axios from 'axios';
+import PageButtons from '../PageButtons';
 
 export class Home extends Component {
     render() {
                 return (
                     <div className="container">
-                        <Dashboard></Dashboard>
+                        <PageButtons></PageButtons>
                     </div>
         )
    }
