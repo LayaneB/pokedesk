@@ -3,7 +3,6 @@ import {Switch, Route} from 'react-router-dom';
 
 import MeusPockets from './pages/MeusPockets';
 import Home from './pages/Home';
-import Menu from './Menu';
 
 
 export class Routes extends Component {

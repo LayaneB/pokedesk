@@ -6,7 +6,7 @@ import Routes from './routes';
 import NavBar from './components/layout/NavBar';
 import SearchBar from './components/layout/SearchBar';
 import backgroundImage from './backgroundpokenoob.png';
-import Home from './pages/Home';
+import Pagination from './Pagination';
 
 import ReactDom from "react-dom";
 
